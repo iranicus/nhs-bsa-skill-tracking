@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- Add default logback config provided by Spring Boot (Console + file appenders already setup for us) -->
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+
+    <logger name="com.rdan.nhs.bsa" level="DEBUG"/>
+    <logger name="org.springframework" level="INFO"/>
+</configuration>
